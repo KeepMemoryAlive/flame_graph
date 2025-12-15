@@ -9,4 +9,6 @@ linux系统中安装有perf，一般情况下，现在大部分内核版本都�
 ./flame_graph.sh  pid  time     
 pid:采集目标进程id   time:采集时长
 
+# 结果
+等待采集时间完成后，在目录下会生成一个pid.svg文件，用浏览器打开该文件即可观察火焰图
 
